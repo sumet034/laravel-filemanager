@@ -11,6 +11,8 @@
   <meta name="msapplication-navbutton-color" content="#333844">
   <!-- iOS Safari -->
   <meta name="apple-mobile-web-app-status-bar-style" content="#333844">
+<meta http-equiv="Content-Security-Policy"
+content="afe-inline'; script-src 'self' cdn.jsdelivr.net 'unsafe-inline'; style-src 'self' fonts.googleapis.com 'unsafe-inline' cdn.jsdelivr.net; font-src 'self' data: cdn.jsdelivr.net fonts.gstatic.com; img-src 'self' uicdn.toast.com google-analytics.com data:; frame-src 'self'; object-src 'none'; form-action 'self'; frame-ancestors 'self';">
 
   <title>{{ trans('laravel-filemanager::lfm.title-page') }}</title>
   <link rel="shortcut icon" type="image/png" href="{{ asset('vendor/laravel-filemanager/img/72px color.png') }}">
