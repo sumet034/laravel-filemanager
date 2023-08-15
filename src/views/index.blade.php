@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+    content="afe-inline'; script-src 'self' cdn.jsdelivr.net 'unsafe-inline'; style-src 'self' fonts.googleapis.com 'unsafe-inline' cdn.jsdelivr.net; font-src 'self' data: cdn.jsdelivr.net fonts.gstatic.com; img-src 'self' uicdn.toast.com google-analytics.com data:; frame-src 'self'; object-src 'none'; form-action 'self'; frame-ancestors 'self';">
 
   <!-- Chrome, Firefox OS and Opera -->
   <meta name="theme-color" content="#333844">
